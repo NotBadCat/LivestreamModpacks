@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ToggleableReadouts.ModSettings_ToggleableReadouts">
+		<exposedFilteredDefs>
+			<li>ThingDef/MealSimple</li>
+		</exposedFilteredDefs>
+	</ModSettings>
+</SettingsBlock>

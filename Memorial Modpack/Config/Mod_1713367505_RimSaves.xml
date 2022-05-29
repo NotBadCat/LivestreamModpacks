@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="aRandomKiwi.ARS.Settings">
+		<curFolder>Memorial Weekend Livestream</curFolder>
+		<folders>
+			<li>Clones</li>
+			<li>Default</li>
+			<li>Genetics LP</li>
+			<li>January RWP Contest</li>
+			<li>Livestreaming</li>
+			<li>Mod Updates &amp; Uploads</li>
+			<li>Memorial Weekend Livestream</li>
+		</folders>
+	</ModSettings>
+</SettingsBlock>

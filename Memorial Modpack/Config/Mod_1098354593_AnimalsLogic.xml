@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="AnimalsLogic.Settings">
+		<haul_mtb>0.7394366</haul_mtb>
+		<toxic_buildup_rot>0.5011737</toxic_buildup_rot>
+	</ModSettings>
+</SettingsBlock>

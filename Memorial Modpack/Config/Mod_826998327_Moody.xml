@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Moody.Settings">
+		<ShowPawnProfession>False</ShowPawnProfession>
+		<MoodyX>1182</MoodyX>
+		<MoodyY>11</MoodyY>
+		<MoodyWidth>398</MoodyWidth>
+		<MoodyHeight>206</MoodyHeight>
+		<TinyMode>True</TinyMode>
+	</ModSettings>
+</SettingsBlock>

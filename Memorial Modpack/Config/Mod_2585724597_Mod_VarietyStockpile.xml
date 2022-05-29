@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="VarietyMattersStockpile.ModSettings_VarietyStockpile">
+		<limitNonStackables>False</limitNonStackables>
+		<checkReservations>False</checkReservations>
+	</ModSettings>
+</SettingsBlock>

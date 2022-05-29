@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TinyTweaks.TinyTweaksSettings">
+		<animalMedicalAlerts>False</animalMedicalAlerts>
+		<autoAssignAnimalFollowSettings>False</autoAssignAnimalFollowSettings>
+		<alphabeticalBillList>False</alphabeticalBillList>
+		<changeQualityDistribution>True</changeQualityDistribution>
+		<delayedSkillDecay>True</delayedSkillDecay>
+		<randomStartingSeason>False</randomStartingSeason>
+	</ModSettings>
+</SettingsBlock>

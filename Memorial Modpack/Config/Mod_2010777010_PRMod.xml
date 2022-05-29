@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ProgressRenderer.PRModSettings">
+		<renderGameConditions>False</renderGameConditions>
+		<renderWeather>False</renderWeather>
+		<timeOfDay>12</timeOfDay>
+		<encoding>UnityPNG</encoding>
+		<exportPath>I:\Rimworld Recordings\Progress Renderer</exportPath>
+		<createSubdirs>True</createSubdirs>
+		<fileNamePattern>BothTmpCopy</fileNamePattern>
+		<migratedOutputImageSettings>True</migratedOutputImageSettings>
+		<migratedInterval>True</migratedInterval>
+	</ModSettings>
+</SettingsBlock>

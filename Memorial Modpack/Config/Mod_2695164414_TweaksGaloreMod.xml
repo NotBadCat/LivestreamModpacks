@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TweaksGalore.TweaksGaloreSettings">
+		<tweak_insultingSpreeNerf>True</tweak_insultingSpreeNerf>
+		<tweak_lagFreeLamps>True</tweak_lagFreeLamps>
+		<tweak_skilledStonecutting>True</tweak_skilledStonecutting>
+		<tweak_noBreakdowns>True</tweak_noBreakdowns>
+		<tweak_impassableDeepWater>True</tweak_impassableDeepWater>
+		<tweak_glowingHealroot>True</tweak_glowingHealroot>
+		<tweak_glowingAmbrosia>True</tweak_glowingAmbrosia>
+		<patch_settlementTraderTimer>True</patch_settlementTraderTimer>
+		<patch_incidentPawnStats>True</patch_incidentPawnStats>
+		<patch_prisonersDontHaveKeys>True</patch_prisonersDontHaveKeys>
+		<patch_strongFloorsStopInfestations>True</patch_strongFloorsStopInfestations>
+		<tweak_strongerSteel>True</tweak_strongerSteel>
+		<tweak_prettyPreciousMetals>True</tweak_prettyPreciousMetals>
+		<tweak_metalDoesntBurn>True</tweak_metalDoesntBurn>
+		<tweak_stackableChunks>True</tweak_stackableChunks>
+		<tweak_stackableChunks_stone>3</tweak_stackableChunks_stone>
+		<tweak_stackableChunks_slag>3</tweak_stackableChunks_slag>
+		<tweak_delayedRoyalty>True</tweak_delayedRoyalty>
+		<tweak_replantableAnima>True</tweak_replantableAnima>
+		<tweak_ancientDeconstruction>True</tweak_ancientDeconstruction>
+		<tweak_ancientDeconstruction_mode>True</tweak_ancientDeconstruction_mode>
+		<tweak_replantableGauranlen>True</tweak_replantableGauranlen>
+		<tweak_darklightGlowPods>True</tweak_darklightGlowPods>
+		<patch_properSuppression>True</patch_properSuppression>
+	</ModSettings>
+</SettingsBlock>

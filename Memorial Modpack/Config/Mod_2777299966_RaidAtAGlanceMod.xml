@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="RaidAtAGlance.RaidAtAGlanceSettings">
+		<RaidAtAGlance_IconSize>30</RaidAtAGlance_IconSize>
+	</ModSettings>
+</SettingsBlock>

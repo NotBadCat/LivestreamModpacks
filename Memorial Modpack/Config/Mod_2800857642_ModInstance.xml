@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MapPreview.Settings">
+		<PreviewWindowSize>300</PreviewWindowSize>
+		<PreviewWindowPosition>(1386.0, 32.0)</PreviewWindowPosition>
+	</ModSettings>
+</SettingsBlock>

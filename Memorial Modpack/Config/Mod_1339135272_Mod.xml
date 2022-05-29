@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TD_Enhancement_Pack.Settings">
+		<zoneHarvestableToggle>True</zoneHarvestableToggle>
+		<autoRebuildTransportPod>True</autoRebuildTransportPod>
+		<startOpenResourceReadout>True</startOpenResourceReadout>
+		<mouseoverInfoTopRight>True</mouseoverInfoTopRight>
+		<colorVariation>True</colorVariation>
+		<colorGenerator>True</colorGenerator>
+	</ModSettings>
+</SettingsBlock>
