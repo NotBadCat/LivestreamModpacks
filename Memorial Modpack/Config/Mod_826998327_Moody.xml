@@ -2,10 +2,10 @@
 <SettingsBlock>
 	<ModSettings Class="Moody.Settings">
 		<ShowPawnProfession>False</ShowPawnProfession>
-		<MoodyX>1182</MoodyX>
-		<MoodyY>11</MoodyY>
-		<MoodyWidth>398</MoodyWidth>
-		<MoodyHeight>206</MoodyHeight>
+		<MoodyX>1220</MoodyX>
+		<MoodyY>10</MoodyY>
+		<MoodyWidth>395</MoodyWidth>
+		<MoodyHeight>231</MoodyHeight>
 		<TinyMode>True</TinyMode>
 	</ModSettings>
 </SettingsBlock>

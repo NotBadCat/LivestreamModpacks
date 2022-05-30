@@ -97,6 +97,10 @@
 								<elements IsNull="True" />
 							</li>
 							<li>
+								<type>RimWorld.Designator_ExtractTree</type>
+								<elements IsNull="True" />
+							</li>
+							<li>
 								<type>RimWorld.Designator_Strip</type>
 								<elements IsNull="True" />
 							</li>
@@ -121,19 +125,19 @@
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>KCSG.Designator_ExportToXml</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>KCSG.Designator_ExportToXmlFromArea</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
 								<type>VFESecurity.Designator_RearmTrap</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
+								<type>Replace_Stuff_Compatibility.Designator.BatchReplant</type>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>ProgressRenderer.Designator_CornerMarkerAdd</type>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>ProgressRenderer.Designator_CornerMarkerRemove</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -239,10 +243,6 @@
 								<type>ExpandedRoofing.Designator_AreaNoThickRoof</type>
 								<elements IsNull="True" />
 							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -267,10 +267,6 @@
 							</li>
 							<li>
 								<type>Replace_Stuff.Designator_ReplaceStuff</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -326,90 +322,6 @@
 								<data>VFEArch_ConcreteFoundation</data>
 								<order>20</order>
 								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgeSandstone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgeGranite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgeLimestone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgeSlate</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgeMarble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgeSteel</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>HeavyBridgePlasteel</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>DeepWaterBridgeSandstone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>DeepWaterBridgeGranite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>DeepWaterBridgeLimestone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>DeepWaterBridgeSlate</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>DeepWaterBridgeMarble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
@@ -646,18 +558,6 @@
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>WDReinforcedDoor</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>WDReinforcedAutodoor</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
 								<type>RimWorld.Designator_Dropdown</type>
 								<order>20</order>
 								<elements>
@@ -771,10 +671,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -995,54 +891,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VBE_EspressoMachineBuilding</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEA_ElectricMendingStation</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEA_FueledMendingStation</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_PlanterBox</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_Ecosystem</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_PlanterBox_Tilable</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_Hydroponics_Tilable</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_Ecosystem_Tilable</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
 								<data>VFE_TableMachiningLarge</data>
 								<order>20</order>
 								<elements IsNull="True" />
@@ -1115,6 +963,12 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
+								<data>TableMending</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
 								<data>VPE_GasCrematorium</data>
 								<order>20</order>
 								<elements IsNull="True" />
@@ -1163,49 +1017,7 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>QE_Building_OrganVat</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>QE_PawnVat</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
 								<data>FabricationBench</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_MeatDryingRack</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_CraftingBench</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_WoodFiredCrematorium</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_ConcretePress</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_TyrianFarm</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -1231,10 +1043,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_RemoveFloor</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -1467,12 +1275,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEM_IndustrialCoffeeRoaster</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
 								<data>VFEM_ProvisionsPackagingFactory_Cannery</data>
 								<order>20</order>
 								<elements IsNull="True" />
@@ -1507,10 +1309,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -1618,12 +1416,6 @@
 							<li>
 								<type>RimWorld.Designator_Build</type>
 								<data>VFE_MechanoidLiquidFreezer</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_AnimalFeeder</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -1767,6 +1559,30 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
+								<data>VCHE_ChemfuelTap</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
+								<data>VCHE_ChemfuelDrain</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
+								<data>VCHE_DeepchemTap</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
+								<data>VCHE_DeepchemDrain</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
 								<data>Shelf_RepairRack</data>
 								<order>20</order>
 								<elements IsNull="True" />
@@ -1789,12 +1605,6 @@
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>LWM_RB_BeeRack</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -1807,10 +1617,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -2037,42 +1843,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEA_WallLamp</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEA_WallLamp_Red</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEA_WallLamp_Green</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEA_WallLamp_Blue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEA_AncientCryptosleepSuspender</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
 								<data>VPE_GasSunLamp</data>
 								<order>20</order>
 								<elements IsNull="True" />
@@ -2191,12 +1961,6 @@
 									</li>
 								</elements>
 							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEA_WallDarkLamp</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -2209,10 +1973,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -2464,108 +2224,6 @@
 						</designators>
 					</li>
 					<li>
-						<label>bees</label>
-						<defName>RB_Bees</defName>
-						<designators>
-							<li>
-								<type>RimWorld.Designator_Cancel</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_IndustrialApiary</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_Beekeeping_Workbench_Building</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_BeeResearchTable</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_Honey_Centrifuge</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_Advanced_Honey_Centrifuge</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_Beehouse</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_ClimatizedBeehouse</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_AdvancedBeehouse</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_AdvancedClimatizedBeehouse</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_SpacerBeehouse</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_BroodChamber</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_HybridizationChamber</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_WaxCandle</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RB_MeadFermentingBarrel</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-						</designators>
-					</li>
-					<li>
 						<label>genetics</label>
 						<defName>GR_GeneticsTab</defName>
 						<designators>
@@ -2575,10 +2233,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -2672,10 +2326,6 @@
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
 								<type>RimWorld.Designator_Dropdown</type>
 								<order>20</order>
 								<elements>
@@ -2752,6 +2402,48 @@
 								<data>WatermillGenerator</data>
 								<order>20</order>
 								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Dropdown</type>
+								<order>20</order>
+								<elements>
+									<li>
+										<type>RimWorld.Designator_Build</type>
+										<data>BioReactor</data>
+										<order>20</order>
+										<elements IsNull="True" />
+									</li>
+									<li>
+										<type>RimWorld.Designator_Build</type>
+										<data>BioReactorCircleLarge</data>
+										<order>20</order>
+										<elements IsNull="True" />
+									</li>
+									<li>
+										<type>RimWorld.Designator_Build</type>
+										<data>BioReactorCircleEX</data>
+										<order>20</order>
+										<elements IsNull="True" />
+									</li>
+								</elements>
+							</li>
+							<li>
+								<type>RimWorld.Designator_Dropdown</type>
+								<order>20</order>
+								<elements>
+									<li>
+										<type>RimWorld.Designator_Build</type>
+										<data>BioReactorBig</data>
+										<order>20</order>
+										<elements IsNull="True" />
+									</li>
+									<li>
+										<type>RimWorld.Designator_Build</type>
+										<data>BioReactorEx</data>
+										<order>20</order>
+										<elements IsNull="True" />
+									</li>
+								</elements>
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
@@ -2942,8 +2634,8 @@
 						</designators>
 					</li>
 					<li>
-						<label>props</label>
-						<defName>PropsandDecor</defName>
+						<label>pipe networks</label>
+						<defName>VCHE_PipeNetworks</defName>
 						<designators>
 							<li>
 								<type>RimWorld.Designator_Cancel</type>
@@ -2954,1666 +2646,18 @@
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
 								<type>RimWorld.Designator_Dropdown</type>
 								<order>20</order>
 								<elements>
 									<li>
 										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalArrowLong</data>
+										<data>VCHE_ChemfuelPipe</data>
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
 									<li>
 										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalArrowShort</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalArrowWide</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalLineDouble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalLineDoubleCornerInner</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalLineDoubleCornerOuter</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalLineThin</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalLineThinCornerInner</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalLineThinCornerOuter</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolA</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolB</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolC</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolD</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolE</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolF</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolG</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolH</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolI</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolJ</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolK</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolL</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolM</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolN</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolO</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolP</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolQ</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolV</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolR</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolS</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolT</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolU</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolW</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolX</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolY</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolZ</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolOne</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolTwo</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolThree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolFour</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolFive</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolSix</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolSeven</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolEight</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolNine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalSymbolZero</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordArmory</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordBarracks</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordBlock</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordCafeteria</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordCargo</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordChamber</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordClimate</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordCommand</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordControl</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordEngineer</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordFarming</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordFreezer</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordFridge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordHangar</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordHospital</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordKill</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordKitchen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordLanding</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordMedical</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordMess</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordMorgue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordMortar</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordPlay</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordPrison</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordReactor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordRecreation</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordRefinery</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordRelax</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordResearch</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSecurity</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordShipping</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSleeping</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmelting</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordStorage</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordWarning</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordWorkshop</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallBase</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallBay</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallBox</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallCell</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallClear</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallDock</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallGas</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallHall</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallKeep</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallLab</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallPad</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallRoom</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallWing</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LargeDecalWordSmallZone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalArrowLong</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalArrowShort</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalArrowWide</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalLineDouble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalLineDoubleCornerInner</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalLineDoubleCornerOuter</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalLineThin</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalLineThinCornerInner</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalLineThinCornerOuter</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolA</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolB</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolC</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolD</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolE</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolF</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolG</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolH</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolI</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolJ</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolK</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolL</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolM</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolN</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolO</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolP</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolQ</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolV</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolR</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolS</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolT</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolU</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolW</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolX</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolY</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolZ</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolOne</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolTwo</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolThree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolFour</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolFive</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolSix</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolSeven</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolEight</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolNine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalSymbolZero</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordArmory</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordBarracks</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordBlock</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordCafeteria</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordCargo</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordChamber</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordClimate</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordCommand</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordControl</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordEngineer</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordFarming</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordFreezer</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordFridge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordHangar</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordHospital</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordKill</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordKitchen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordLanding</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordMedical</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordMess</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordMorgue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordMortar</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordPlay</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordPrison</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordReactor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordRecreation</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordRefinery</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordRelax</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordResearch</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSecurity</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordShipping</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSleeping</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmelting</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordStorage</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordWarning</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordWorkshop</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallBase</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallBay</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallBox</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallCell</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallClear</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallDock</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallGas</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallHall</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallKeep</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallLab</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallPad</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallRoom</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallWing</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DecalWordSmallZone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FoodBox</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_HayBaleLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_HayBaleMedium</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_HayBaleSmall</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Hedge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenLogs</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenLogsLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenWagon</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthDirt</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthAnimalFilth</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthSand</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthTrash</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthRubbleRock</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthRubbleSlag</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthRubbleSandbags</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthBlood</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthBugBlood</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthMachineBits</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthAmnioticFluid</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthSlime</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthVomit</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthFireFoam</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthChemfuel</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthCorpseBile</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FilthAsh</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelATM</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelATM</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverATM</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenATM</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelBookshelf</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelBookshelf</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverBookshelf</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenBookshelf</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelCupboardDouble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelCupboardDouble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverCupboardDouble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenCupboardDouble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelCupboardNarrow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelCupboardNarrow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverCupboardNarrow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenCupboardNarrow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelTallCabinet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelTallCabinet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverTallCabinet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenTallCabinet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelShortCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelShortCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverShortCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenShortCupboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelShortCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelShortCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverShortCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenShortCupboardPlates</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelPlankDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelPlankDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverPlankDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenPlankDivider</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelMirror</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelMirror</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverMirror</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenMirror</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelVendingMachine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlasteelVendingMachine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SilverVendingMachine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenVendingMachine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WashingMachine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WarehouseShelfEmpty</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WarehouseShelfBoxes</data>
+										<data>VCHE_UndergroundChemfuelPipe</data>
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
@@ -4621,19 +2665,7 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEPD_Desk</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEPD_CoffeeTable</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEPD_CoffeeTableSmall</data>
+								<data>PS_ChemfuelTank</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -4643,133 +2675,13 @@
 								<elements>
 									<li>
 										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BinBag</data>
+										<data>VCHE_DeepchemPipe</data>
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
 									<li>
 										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BoxLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BoxSmall</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CardboardBoxLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CardboardBoxSmall</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BarrelGreen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BarrelGrey</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BarrelRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BarrelYellow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BarrelBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletCardboard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletBoxes</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Pallet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Pipes</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Planks</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Cone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ConcreteBags</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WaterTank</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_VentilationShaft</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ElectricalCabinet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Lockers</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_GasTank</data>
+										<data>VCHE_UndergroundDeepchemPipe</data>
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
@@ -4777,981 +2689,21 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEPD_BrickPile</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletBarrelGreen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletBarrelGrey</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletBarrelRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletBarrelYellow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalletBarrelBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ContainerGreen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ContainerGrey</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ContainerRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ContainerYellow</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ContainerBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BrewingBarrel</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Cooker</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Microwave</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Oven</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Fridge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WaterDispenser</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_FoodTrolley</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_KitchenSurface</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_KitchenSurfaceEmpty</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_KitchenSink</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WineRack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_MopBucket</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CookingAppliances</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CuttingBoard</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Knives</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DinnerSet</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Spices</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Anvil</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ArmorStandEmpty</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ArmorStandFull</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ArrowCage</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BucketEmpty</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BucketwithWater</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CageBrazier</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenChest</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenChestLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WeaponRackEmpty</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WeaponRackSwords</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WeaponRackSpears</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenSign</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_TanningRack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WoodenPlatform</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CagePlatform</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEPD_Banner</data>
+								<data>PS_DeepchemTank</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEPD_BrazierEmpty</data>
+								<data>PS_DeepchemRefinery</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>RimWorld.Designator_Dropdown</type>
+								<type>RimWorld.Designator_Build</type>
+								<data>VCHE_DeepchemPumpjack</data>
 								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Glowstool</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Agarilux</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Bryolux</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Rose</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Daylily</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Rice</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Potato</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Corn</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Strawberry</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Haygrass</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Cotton</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Devilstrand</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Healroot</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Hops</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Smokeleaf</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Psychoid</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Agave</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PincushionCactus</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_GrassShort</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_GrassLong</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BurnedTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_WillowTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CypressTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_MapleTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Chokevine</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_OakTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PoplarTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PineTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BirchTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_TeakTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CecropiaTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PalmTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BambooTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DragoTree</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SaguaroCactus</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Bush</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Brambles</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_BerryBush</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Alocasia</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Clivia</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Rafflesia</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_AdvancedRotor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Rotor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Battery</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Exhaust</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SmallExhaust</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Generator</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_IndustrialGenerator</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_GeneratorUnitLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_GeneratorUnitSmall</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_GasStorageUnit</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ToxicWasteBarrel</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PowerConverter</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ChemfuelTank</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LiquidTank</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SteelTank</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CoalBurner</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PowerPole</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DataConsole</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DataConveyor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DisplayScreen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_DisplayTable</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_LongCommandConsole</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlanningScreen</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PlanningTable</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_TripleDisplay</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SpacerContainer</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SpacerContainerLarge</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SpacerContainerStack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SpacerStorage</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SwitchPanel</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_ServerRack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SensorPlatform</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_PersonalConsole</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_Superpod</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SkipBlack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_AlbatrossBlack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SkipWhite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_AlbatrossWhite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SkipSilver</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_AlbatrossSilver</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SkipBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_AlbatrossBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_SkipRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_AlbatrossRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarForklift</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarDeliveryBlack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarFamilyBlack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarPickupBlack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarVintageBlack</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarDeliveryWhite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarFamilyWhite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarPickupWhite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarVintageWhite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarDeliverySilver</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarFamilySilver</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarPickupSilver</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarVintageSilver</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarDeliveryBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarFamilyBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarPickupBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarVintageBlue</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarDeliveryRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarFamilyRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarPickupRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEPD_CarVintageRed</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
+								<elements IsNull="True" />
 							</li>
 						</designators>
 					</li>
@@ -5765,10 +2717,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -6053,12 +3001,6 @@
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_Turret_Scorpion</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -6071,10 +3013,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -6301,19 +3239,31 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VBE_WritersTable</data>
+								<data>AnimalHarvestingSpot</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VBE_TypewritersTable</data>
+								<data>AnimalMilkingSpot</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VEF_OutpostDeliverySpot</data>
+								<data>AnimalShearingSpot</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
+								<data>AnimalSlaughteringSpot</data>
+								<order>20</order>
+								<elements IsNull="True" />
+							</li>
+							<li>
+								<type>RimWorld.Designator_Build</type>
+								<data>AnimalTrainingSpot</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -6332,18 +3282,6 @@
 							<li>
 								<type>RimWorld.Designator_Build</type>
 								<data>VFE_IndoctrinationPod</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_Scarecrow</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFE_Sprinkler</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -6463,13 +3401,7 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_Tent</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_Beacon</data>
+								<data>DropSpotTradeShip</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -6516,12 +3448,6 @@
 								<elements IsNull="True" />
 							</li>
 							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>O21_HibernationSpot</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
 								<type>RimWorld.Designator_Dropdown</type>
 								<order>20</order>
 								<elements>
@@ -6551,10 +3477,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -6720,12 +3642,6 @@
 									<li>
 										<type>RimWorld.Designator_Build</type>
 										<data>PRF_MiniHelper</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>PRF_MiniHelperAtomic</data>
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
@@ -7559,10 +4475,6 @@
 									</li>
 								</elements>
 							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -7650,10 +4562,6 @@
 								</elements>
 							</li>
 							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
 								<type>RimWorld.Designator_Build</type>
 								<data>SunLamp</data>
 								<order>20</order>
@@ -7705,10 +4613,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_RemoveFloor</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -7931,12 +4835,6 @@
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_TileConcrete</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
 								</elements>
 							</li>
 							<li>
@@ -7970,12 +4868,6 @@
 									<li>
 										<type>RimWorld.Designator_Build</type>
 										<data>FlagstoneMarble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_FlagstoneConcrete</data>
 										<order>20</order>
 										<elements IsNull="True" />
 									</li>
@@ -8377,156 +5269,6 @@
 								<elements>
 									<li>
 										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_MosaicsSandstone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_MosaicsGranite</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_MosaicsLimestone</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_MosaicsSlate</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>VFEC_MosaicsMarble</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_BronzeTile</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BeesWaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BrittleBeesWaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_RedBeeswaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_WhiteBeeswaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BlackBeeswaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_HeavywaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BlueBeeswaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_SteelwaxFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BeesWaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BrittleBeesWaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_RedBeeswaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_WhiteBeeswaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BlackBeeswaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_HeavywaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_BlueBeeswaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>RB_SteelwaxTileFloor</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
 										<data>VFEArch_FineSteelTile</data>
 										<order>20</order>
 										<elements IsNull="True" />
@@ -8587,10 +5329,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -8701,18 +5439,6 @@
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_Thermaebath</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_TheatreStage</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -8725,10 +5451,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -8767,54 +5489,6 @@
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRTSSuperpod</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRTSSkip</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRAF</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRAFTek</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRTSMkII</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRTSMkIII</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRTSMkIIIp</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>SRTSMkIV</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 					<li>
@@ -8827,10 +5501,6 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
 								<elements IsNull="True" />
 							</li>
 							<li>
@@ -8919,305 +5589,7 @@
 							</li>
 							<li>
 								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_LargePassiveCooler</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>VFEC_HeatStones</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
 								<data>Stone_DarklightCampfire</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-						</designators>
-					</li>
-					<li>
-						<label>rimatomics</label>
-						<defName>Rimatomics</defName>
-						<designators>
-							<li>
-								<type>RimWorld.Designator_Cancel</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Deconstruct</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>Rimatomics.Designator_RemovePipe</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>coolingPipe</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>coolantValve</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>steamValve</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>waterValve</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>steamPipe</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>waterPipe</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>HighVoltage</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>controllerLoom</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>NuclearResearchBench</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>TableRimatomicsMachining</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>ResearchReactor</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>WeaponsBench</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PlutoniumProcessor</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RimatomicsRTG</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>ReactorCoreA</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>ReactorCoreB</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>ReactorCoreC</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>Turbine</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>BigTurbine</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>CoolingRadiator</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>CoolingWater</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>CoolingTower</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>Transformer</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>ReactorControl</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>storagePool</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RadiationDetector</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RadiationShielding</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Dropdown</type>
-								<order>20</order>
-								<elements>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>ReactorSacrophagus</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>ReactorSacrophagusB</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-									<li>
-										<type>RimWorld.Designator_Build</type>
-										<data>ReactorSacrophagusC</data>
-										<order>20</order>
-										<elements IsNull="True" />
-									</li>
-								</elements>
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>DU_Blastdoor</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPC</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCWeaponsConsole</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RadarDish</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCADS</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCTeslaCoil</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCHEL</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCRailgun</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCObelisk</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>PPCMarauder</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>RimatomicsShieldGenerator</data>
-								<order>20</order>
-								<elements IsNull="True" />
-							</li>
-							<li>
-								<type>RimWorld.Designator_Build</type>
-								<data>MissileSilo</data>
 								<order>20</order>
 								<elements IsNull="True" />
 							</li>
@@ -9255,10 +5627,6 @@
 								<type>MorePlanning.Designators.RemoveDesignator</type>
 								<elements IsNull="True" />
 							</li>
-							<li>
-								<type>DubRoss.Designator_PaintFixtures</type>
-								<elements IsNull="True" />
-							</li>
 						</designators>
 					</li>
 				</tabs>
@@ -9279,6 +5647,16 @@
 			<li>
 				<path>
 					<li>Finish All Research</li>
+				</path>
+			</li>
+			<li>
+				<path>
+					<li>Spawn Pawn</li>
+				</path>
+			</li>
+			<li>
+				<path>
+					<li>T: Destroy</li>
 				</path>
 			</li>
 		</debugFavorites>
@@ -9382,8 +5760,20 @@
 					<type>AreaUtility</type>
 					<namespace>Verse</namespace>
 				</li>
+				<li>
+					<method>DrawBiomeTypesSelection</method>
+					<type>TabTerrain</type>
+					<namespace>PrepareLanding</namespace>
+				</li>
+				<li>
+					<method>OnSearchFieldChanged</method>
+					<type>MainTabWindow_ResearchTree</type>
+					<namespace>ResearchPal</namespace>
+				</li>
 			</keys>
 			<values>
+				<li IsNull="True" />
+				<li IsNull="True" />
 				<li IsNull="True" />
 				<li IsNull="True" />
 				<li IsNull="True" />

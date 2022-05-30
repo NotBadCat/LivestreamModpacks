@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="IdeologyDevelopmentPlus.Settings">
+		<ReformCostStart>5</ReformCostStart>
 		<ReformCostIncrement>0</ReformCostIncrement>
 	</ModSettings>
 </SettingsBlock>
